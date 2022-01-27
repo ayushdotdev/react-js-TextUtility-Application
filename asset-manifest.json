@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/react-js-TextUtility-Application/static/css/main.31d6cfe0.css",
+    "main.js": "/react-js-TextUtility-Application/static/js/main.b9ca62b6.js",
+    "index.html": "/react-js-TextUtility-Application/index.html",
+    "main.b9ca62b6.js.map": "/react-js-TextUtility-Application/static/js/main.b9ca62b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.b9ca62b6.js"
+  ]
+}
