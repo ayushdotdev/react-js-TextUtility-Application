@@ -3,7 +3,7 @@ import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import About from './components/About';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 function App() {
   const [mode, setMode] = useState('light'); //Whether dark mode is enabled or not
@@ -31,7 +31,7 @@ function App() {
   };
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar title='TextUtils' mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className='container my-3'>
@@ -49,7 +49,7 @@ function App() {
             />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
